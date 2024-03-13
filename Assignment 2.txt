@@ -1,0 +1,90 @@
+Assignment 2
+
+part-A
+
+1) Hello, World!
+2) for name "productive" will be assigned
+3) create new file file.txt
+4) shows all files in that directory
+5) deletes file.txt
+6) copies file1.txt content into new file file2.tct
+7) moves file.txt with absolute path
+8) it set the permission rwx for owner and for others it will be rx.
+9) it searches that string in file
+10) the process with that pid will be terminated
+11) creates directory mydir, changes present directory to mydir, creates new file file.txt, prints Hello, World! and cat gives all content of file.txt
+12) it will give all file with .txt extension
+13) it will search for "pattern" in those directories and sub-directories
+14) it will show the content of file1.txt and file2.txt int sorted and only duplicate lines in sorted file
+15) it will set rw for owner and r for others
+16) copies directory from source_directory to destination_directory
+17) search for all .txt files
+18) allows user for execution
+19) search for executable directories
+
+
+Part - B
+
+1) true
+2) true
+3) false
+4) true
+5) true
+6) true
+7) true
+8) true
+
+1) chmod
+2) cp
+3) mkdir
+4) cat
+5) mv
+
+Part - C
+
+1) echo "Hello, World!"
+2) name="CDAC Mumbai"
+   echo "$name"
+3) read n
+   echo $n
+4) read x
+   read y
+   sum=$((x + y))
+   echo $sum
+5) read n
+   rem=`expr $n % 2`
+   if [ $rem -eq 0 ]; then
+	echo "even"
+   else
+	echo "odd"
+   fi
+6) for i in $(seq 1 5)
+   do
+	echo $i
+   done
+7) x=1
+   while [ $x -le 5 ]
+   do
+	echo $x
+   done
+8) file="file.txt"
+   if [ -e $file ]; then
+	echo "File exists"
+   else
+	echo "File does not exists"
+   fi
+9) read n
+   if [ $n -lt 10 ]
+	echo "less than 10"
+   else
+	echo "greater than 10"
+   fi
+10) for i in $(seq 1 5); do
+	for j in $(seq 1 5); do
+		result=$((i * j))
+		echo $result
+	done
+	echo "\n"
+    done
+
+

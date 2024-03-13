@@ -1,0 +1,45 @@
+Assignment 1
+
+problem - 1
+mkdir LinuxAssignment
+cd LinuxAssignment
+touch file1.txt
+mkdir docs
+rm file1.txt
+cp file1.txt docs
+cd docs
+ls
+mv file1.txt file2.txt
+ls
+chmod 777 file2.txt
+chmod 744 file2.txt
+ls -l
+chown user_name file2.txt
+ls -l
+cd ..
+ls
+cd ..
+ls
+ls *.txt
+cat > Demo.txt
+cat Demo.txt | grep "World"
+date
+ifconfig
+ping www.google.com
+zip docs.zip docs
+mkdir folder1
+cp docs.zip folder1
+cd folder1
+unzip docs.zip
+
+
+problem - 2
+
+1) head -10 data.txt
+2) tail -5 data.txt
+3) head -15 numbers.txt
+4) tail -3 data.txt
+5) <input.txt tr '[:lower:]' '[:upper:]' > output.txt
+6) uniq duplicate.txt
+7) uniq -c fruits.txt
+
